@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "42436893-61a5-4c58-b9e6-2637cb51f8e9",
+		"name": "Practical Test - ICON PLUS PLN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20727504"
+	},
+	"item": [
+		{
+			"name": "transaksi pemesanan ruangan",
+			"item": [
+				{
+					"name": "get-all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/summary",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"summary"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
